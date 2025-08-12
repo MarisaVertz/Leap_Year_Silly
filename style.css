@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 html,
 body {
   height: 100%;
 }
-
 body {
   margin: 0;
   font-family: "Nunito", Arial, sans-serif;
   color: #fff;
   text-align: center;
-  background: #0b0f1f url("moon.png") center / cover no-repeat fixed;
+  background: #0b0f1f url("moon.png") center/cover no-repeat fixed;
   overflow: hidden;
 }
 
@@ -29,7 +28,9 @@ body {
   top: 0;
   left: 0;
   offset-rotate: 0deg;
-  offset-path: path("M 85 310 A 260 260 0 1 1 605 310 A 260 260 0 1 1 85 310");
+  offset-path: path(
+    "M 105 330 A 240 240 0 1 1 585 330 A 240 240 0 1 1 105 330"
+  );
 }
 
 .leap {
@@ -68,7 +69,6 @@ form {
   gap: 10px;
   margin: 0;
 }
-
 input,
 button {
   font-size: 16px;
@@ -77,21 +77,18 @@ button {
   outline: none;
   border-radius: 999px;
 }
-
 #year {
   width: 9ch;
   text-align: center;
   background: #ffffffea;
   color: #222;
 }
-
 button {
   background: #ffb3c7;
   color: #2b1a1f;
   font-weight: 700;
   cursor: pointer;
 }
-
 #result {
   display: none;
   position: fixed;
@@ -105,7 +102,6 @@ button {
   color: #fff;
   font-weight: 700;
 }
-
 #result.show {
   display: inline-block;
 }
@@ -114,20 +110,19 @@ button {
   .container {
     width: 560px;
     height: 336px;
+    margin: 8vh auto 0;
   }
-
   #cow {
     width: 120px;
     offset-path: path(
-      "M 108 300 A 168 168 0 1 1 444 300 A 168 168 0 1 1 108 300"
+      "M 86 300 A 190 190 0 1 1 466 300 A 190 190 0 1 1 86 300"
     );
   }
-
   form {
-    bottom: 38vh;
+    bottom: 40vh;
   }
   #result {
-    bottom: 32vh;
+    bottom: 34vh;
   }
 }
 
@@ -135,19 +130,19 @@ button {
   .container {
     width: 360px;
     height: 216px;
+    margin: 14vh auto 0;
   }
-
   #cow {
     width: 100px;
+
     offset-path: path(
-      "M 35 340 A 140 140 0 1 1 315 340 A 140 140 0 1 1 35 340"
+      "M 30 240 A 150 150 0 1 1 330 240 A 150 150 0 1 1 30 240"
     );
   }
-
   form {
-    bottom: 38vh;
+    bottom: 42vh;
   }
   #result {
-    bottom: 32vh;
+    bottom: 36vh;
   }
 }
