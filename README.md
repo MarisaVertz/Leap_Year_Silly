@@ -1,7 +1,7 @@
 <h1>Leap Year Equation</h1>
 <p>Turned an exercise from my coursework into a silly little project. Learning and playing with javascript and css! </p>
 <a href="https://marisavertz.github.io/Leap_Year_Silly/">
-  <img src="https://raw.githubusercontent.com/MarisaVertz/1990s_Love_Calculator/refs/heads/main/LC_Screenshot.png" width="500">
+  <img src="https://raw.githubusercontent.com/MarisaVertz/Leap_Year_Silly/refs/heads/main/Leap_Year.png" width="500">
 </a>
 <br><br>
 <a href="https://marisavertz.github.io/Leap_Year_Silly/">
